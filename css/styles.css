@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,112 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*body etc*/
+/*body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eee;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+}
+#main {
+    width: 200px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+/*button*/
+/*.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 19px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkmark{
+  transform:scale(.6);
+  transition:.2s linear ;
+  border-radius:50%;
+  background-color:rgb(0,200,0,0.5);
+  overflow:hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+}
+.checkmark:hover{
+  transform:scale(1.5);
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark::before{
+	content:'';
+	width:100%;
+	position:absolute;
+	top:0;
+	background-color:rgb(0,200,0);
+	height:0;
+	left:0;
+	transition:.2s linear;
+}
+input:checked ~ .checkmark::before{
+  height:100%;
+  top:0;
+}
+
+.container input:checked ~ .checkmark {
+  transform:scale(1.5);
+   border-color:rgba(0,0,0,0);
+}
+
+.container input:checked  {
+background:red;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  opacity:0;
+  transition-delay:.6s;
+  transition:.2s linear;
+
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+  opacity:1;
+    transition:.2s linear;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .containers {
