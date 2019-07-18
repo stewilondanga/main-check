@@ -86,12 +86,12 @@ input:checked~.checkmark::before {
   top: 0;
 }
 
-/*.container input:checked ~ .checkmark {
-  transform:scale(1.5);
-   border-color:rgba(0,0,0,0);
+.container input:checked~.checkmark {
+  transform: scale(1.5);
+  border-color: rgba(0, 0, 0, 0);
 }
 
-.container input:checked  {
+/*.container input:checked  {
 background:red;
 }
 
