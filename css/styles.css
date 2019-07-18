@@ -91,11 +91,11 @@ input:checked~.checkmark::before {
   border-color: rgba(0, 0, 0, 0);
 }
 
-/*.container input:checked  {
-background:red;
+.container input:checked {
+  background: red;
 }
 
-.checkmark:after {
+/*.checkmark:after {
   content: "";
   position: absolute;
   opacity:0;
