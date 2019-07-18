@@ -121,12 +121,12 @@ input:checked~.checkmark::before {
   transform: rotate(45deg);
 }
 
-/*.containers {
+.containers {
   width: 520px;
   margin: 20px auto;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
