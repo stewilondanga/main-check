@@ -64,12 +64,13 @@ body {
   transform: scale(1.5);
 }
 
-/*.container input {
+.container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
-.checkmark::before{
+
+/*.checkmark::before{
 	content:'';
 	width:100%;
 	position:absolute;
