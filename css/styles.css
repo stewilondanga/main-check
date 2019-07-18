@@ -35,7 +35,7 @@ body {
   justify-content: center;
 }
 
-/*.container {
+.container {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -46,7 +46,8 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
-.checkmark{
+
+/*.checkmark{
   transform:scale(.6);
   transition:.2s linear ;
   border-radius:50%;
