@@ -81,12 +81,12 @@ body {
   transition: .2s linear;
 }
 
-/*input:checked ~ .checkmark::before{
-  height:100%;
-  top:0;
+input:checked~.checkmark::before {
+  height: 100%;
+  top: 0;
 }
 
-.container input:checked ~ .checkmark {
+/*.container input:checked ~ .checkmark {
   transform:scale(1.5);
    border-color:rgba(0,0,0,0);
 }
