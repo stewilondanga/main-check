@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -22,15 +33,6 @@
   height: 1.5em;
 }
 
-body{
-    margin:0;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #eee;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    min-height:100vh;
-}
 #main {
     width: 200px;
     padding: 30px;
