@@ -60,10 +60,11 @@ body {
   width: 25px;
 }
 
-/*.checkmark:hover{
-  transform:scale(1.5);
+.checkmark:hover {
+  transform: scale(1.5);
 }
-.container input {
+
+/*.container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
